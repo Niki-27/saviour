@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saviour Rescuevator — Fire-Evacuation Lifts</title>
+  <meta name="description" content="DFO-certified, IoT-enabled fire-evacuation lifts with proven 3–4 minute rescue time. Compliance packs, CAD drawings, and rapid installation." />
+
+  <link rel="preload" href="Style.css" as="style" />
+  <link rel="stylesheet" href="Style.css" />
+  <!-- Fonts: Inter for UI, Playfair Display for elegant headings -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo.png" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-grid">
+    <div class="brand">
+      <img src="logo.png" alt="Logo">
+      <div class="brand-text">
+        <strong>SAVIOUR</strong>
+        <span class="brand-sub">Rescuevator</span>
+      </div>
+    </div>
+
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav">
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#specs">Specifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <main id="main">
+    <!-- Home Page -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <h1>India’s only fire-evacuation lifts with proven 3–4 minute rescue time</h1>
+            <p>Built to outperform ordinary elevators in every fire scenario — backed by DFO certification, IoT-enabled SOS, and 2-hour fire-rated safety.</p>
+            <div class="hero-ctas">
+              <a class="btn btn-primary" href="#contact" data-open-modal="drawings">Request full technical drawings</a>
+              <a class="btn btn-outline" href="#technology">Explore technology</a>
+            </div>
+            <ul class="trust-badges" aria-label="Trust badges">
+              <li><span class="badge">DFO Certified</span></li>
+              <li><span class="badge">IS & EU Compliant</span></li>
+              <li><span class="badge">IFE Technology Partner</span></li>
+              <li><span class="badge">80+ Years Team Experience</span></li>
+            </ul>
+          </div>
+          <div class="hero-visual" role="img" aria-label="Comparison: standard lifts vs Saviour Rescuevator">
+            <div class="hero-banner">
+              <div class="banner-left" aria-hidden="true">
+                <div class="fire-graphic" aria-hidden="true">
+                  <!-- simple inline SVG fire mark -->
+                  <svg width="96" height="96" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M12 2s4 3 4 7c0 2.5-2 4-2 4s1 1 1 3c0 2.5-2 4-3 4s-3-1.5-3-4c0-2 1-3 1-3s-2-1.5-2-4c0-4 4-7 4-7z" fill="#ff6a00"/>
+                  </svg>
+                </div>
+                <div class="banner-label">Standard lift: shutdown</div>
+              </div>
+
+              <div class="banner-right" role="img" aria-label="Saviour cabin moving upward">
+                <img src="plugging-dashboard.png" alt="Saviour Rescuevator cabin" />
+                <div class="banner-label banner-label--right">Saviour Rescuevator — continues rescue</div>
+              </div>
+            </div>
+
+            <!-- Overlay trust badges -->
+            <div class="hero-badges" aria-hidden="false">
+              <ul>
+                <li><span class="badge">DFO Certified</span></li>
+                <li><span class="badge">IS &amp; EU Compliant</span></li>
+                <li><span class="badge">IFE Technology Partner</span></li>
+                <li><span class="badge">80+ Years Team Experience</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Categories Tabs -->
+        <div class="tabs" data-tabs>
+          <div class="tabs-header" role="tablist" aria-label="Product categories">
+            <button class="tab active" role="tab" aria-selected="true" aria-controls="tab-highrise" id="tab-highrise-btn">High-Rise Fire-Evacuation Lifts</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="tab-hospital" id="tab-hospital-btn">Hospital & Healthcare Fire Lifts</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="tab-commercial" id="tab-commercial-btn">Commercial & Mixed-Use Fire Lifts</button>
+          </div>
+
+          <div class="tabs-panels">
+            <div class="tab-panel active" role="tabpanel" id="tab-highrise" aria-labelledby="tab-highrise-btn">
+              <ul class="key-points">
+                <li><strong>Load & speed:</strong> 630–1600 kg, up to 2.5 m/s for rapid 3–4 min rescue.</li>
+                <li><strong>Safety core:</strong> 2 hr fire-rated vision panels and sandwich doors, UCMP protection, over‑speed control.</li>
+                <li><strong>Continuity edge:</strong> 30 min jerk‑less battery + generator socket.</li>
+                <li><strong>IoT SOS:</strong> Automatic alert to fire station and occupants.</li>
+                <li><strong>Ride comfort:</strong> Under 65 dB with nylon gibs & rollers.</li>
+              </ul>
+              <a class="btn btn-secondary" href="#contact" data-open-modal="quote">Request quote</a>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="tab-hospital" aria-labelledby="tab-hospital-btn">
+              <ul class="key-points">
+                <li><strong>Cabin capacity:</strong> Wide stainless cabin fits ICU beds and life-support equipment.</li>
+                <li><strong>Clinical comfort:</strong> Ultra-smooth ride (<65 dB) critical for patients.</li>
+                <li><strong>Comms & CCTV:</strong> Two-way communication and monitoring.</li>
+                <li><strong>IoT alerts:</strong> Fire teams and hospital control rooms notified.</li>
+                <li><strong>Readiness:</strong> Monthly predictive maintenance.</li>
+              </ul>
+              <a class="btn btn-secondary" href="#contact" data-open-modal="quote">Request quote</a>
+              <p class="note">Founders confirm inclusion of the hospital category.</p>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="tab-commercial" aria-labelledby="tab-commercial-btn">
+              <ul class="key-points">
+                <li><strong>Use cases:</strong> Malls, offices, IT parks, hotels.</li>
+                <li><strong>Compact shafts:</strong> 2-hour fire rating retained.</li>
+                <li><strong>Waterproof components:</strong> EU-compliant car door operators, switches, buffers.</li>
+                <li><strong>Technician safety:</strong> Beam sensor detects movement during pit work.</li>
+              </ul>
+              <a class="btn btn-secondary" href="#contact" data-open-modal="quote">Request quote</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick-Scan Technical Specs -->
+        <div class="card specs">
+          <div class="card-header">
+            <h2>Quick-scan technical specification</h2>
+            <div class="download-group">
+              <button class="btn btn-small" data-export="csv" aria-label="Download CSV">Download CSV</button>
+              <button class="btn btn-small" data-export="pdf" aria-label="Download PDF">Download PDF</button>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table class="table specs-table" aria-describedby="specs-caption">
+              <caption id="specs-caption">Core specifications of Saviour fire-evacuation lifts</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Specification</th>
+                  <th scope="col">Range / Detail</th>
+                </tr>
+              </thead>
+              <tbody id="specs-body">
+                <tr>
+                  <td>Speed</td>
+                  <td>1.5–2.5 m/s</td>
+                </tr>
+                <tr>
+                  <td>Capacity</td>
+                  <td>630–1600 kg</td>
+                </tr>
+                <tr>
+                  <td>Fire rating</td>
+                  <td>2 hr vision panels & doors</td>
+                </tr>
+                <tr>
+                  <td>Power backup</td>
+                  <td>30 min jerk‑less battery + ground‑floor generator socket</td>
+                </tr>
+                <tr>
+                  <td>Control & safety</td>
+                  <td>UCMP protection, IoT SOS, over‑speed control</td>
+                </tr>
+                <tr>
+                  <td>Noise</td>
+                  <td>Under 65 dB</td>
+                </tr>
+                <tr>
+                  <td>Maintenance</td>
+                  <td>Monthly preventive & predictive aligned with IS codes</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Competitor Gap vs Saviour Advantage -->
+        <div class="infographic">
+          <h2>What others miss — where Saviour leads</h2>
+          <div class="comparison-grid">
+            <div class="compare-card">
+              <strong>Generic IoT monitoring</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">Fire-linked IoT + SOS</strong>
+              <p>Directly tied to detection with instant alerts to stations and occupants.</p>
+            </div>
+            <div class="compare-card">
+              <strong>No certified rescue time</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">Proven 3–4 min drills</strong>
+              <p>Validated in live high-rise evacuations.</p>
+            </div>
+            <div class="compare-card">
+              <strong>Limited waterproofing</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">EU-grade components</strong>
+              <p>Operators, switches & buffers remain operational under heavy spray.</p>
+            </div>
+            <div class="compare-card">
+              <strong>Basic power backup</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">True continuity</strong>
+              <p>30 min jerk‑less battery + ground‑floor generator socket.</p>
+            </div>
+            <div class="compare-card">
+              <strong>Long installation cycles</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">Rapid execution</strong>
+              <p>46‑stop tower delivered in 3 months.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Studies Carousel -->
+        <div class="carousel" data-carousel>
+          <h2>Real projects</h2>
+          <div class="carousel-track">
+            <article class="slide active">
+              <h3>Metro City 46‑Stop Tower</h3>
+              <ul class="key-points">
+                <li><strong>Challenge:</strong> Previous supplier failed; indefinite delay risk.</li>
+                <li><strong>Solution:</strong> Fully compliant fire lift installed in 3 months.</li>
+                <li><strong>Result:</strong> CFO/DFO approvals; occupancy licence on time.</li>
+              </ul>
+              <button class="btn btn-tertiary" data-open-modal="similar">Request similar solution</button>
+            </article>
+            <article class="slide">
+              <h3>Premium Residential Complex</h3>
+              <ul class="key-points">
+                <li><strong>Challenge:</strong> Urgent government licence before handover.</li>
+                <li><strong>Solution:</strong> Designed, installed, certified in under 2 months.</li>
+                <li><strong>Result:</strong> Occupancy delivered on schedule; no penalties.</li>
+              </ul>
+              <button class="btn btn-tertiary" data-open-modal="similar">Request similar solution</button>
+            </article>
+
+            <article class="slide">
+              <h3>Hospital ICU Wing</h3>
+              <ul class="key-points">
+                <li><strong>Challenge:</strong> Noise-free, vibration-free rescue for critical patients.</li>
+                <li><strong>Solution:</strong> Under 65 dB silent ride, IoT SOS to control room.</li>
+                <li><strong>Result:</strong> 3–4 minute floor evacuation during live drill.</li>
+              </ul>
+              <button class="btn btn-tertiary" data-open-modal="similar">Request similar solution</button>
+            </article>
+          </div>
+
+        </div>
+
+        <!-- CTA & Download Hub -->
+        <div class="cta-hub">
+          <a class="btn btn-primary" href="#contact" data-open-modal="audit">Free Fire-Lift Audit (48 hrs)</a>
+          <a class="btn btn-outline" href="#resources">Download DFO/IS/EU Compliance Pack (PDF)</a>
+          <a class="btn btn-outline" href="#resources">Request CAD Drawings & Specs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology & Safety Edge -->
+    <section id="technology" class="section">
+      <div class="container">
+  <h2>Technology that keeps lifts moving when others shut down</h2>
+  <p>IoT-enabled, 2-hour fire-rated, and engineered for zero entrapment. Every Saviour Rescuevator lift is a self-contained emergency system.</p>
+        <div class="grid-2">
+          <div>
+            <h3>IoT-powered fire intelligence</h3>
+            <ul class="key-points">
+              <li><strong>Fire‑linked SOS:</strong> Detectors trigger automatic alerts to fire services and building occupants — no manual intervention required.</li>
+              <li><strong>Two‑way comms & monitored CCTV:</strong> Live audio and visual contact for remote guidance during rescues.</li>
+              <li><strong>Rescue dashboard:</strong> Live car position, cabin vitals and rescue timers for coordinated response.</li>
+            </ul>
+          </div>
+          <div class="card card-ghost">
+            <div class="dashboard-mock" aria-label="Interactive rescue dashboard mock-up">
+              <div class="dash-row">
+                <span>Alerts</span><span class="status good">OK</span>
+              </div>
+              <div class="dash-row">
+                <span>Temperature</span><span class="status warn">42°C</span>
+              </div>
+              <div class="dash-row">
+                <span>Rescue timer</span><span class="status">03:12</span>
+              </div>
+              <div class="dash-row">
+                <span>Car position</span><span class="status">Level 18</span>
+              </div>
+            </div>
+            <p class="card-caption">Rescue dashboard — live status & cabin vitals</p>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div>
+            <h3>2‑hour fire‑rated safety envelope</h3>
+            <ul class="key-points">
+              <li><strong>Vision panels & doors:</strong> Certified 2‑hour-rated glazing and doors to preserve visibility and integrity during fire exposure.</li>
+              <li><strong>Insulated sandwich panels:</strong> Minimise heat transfer and help maintain breathable conditions inside the cabin.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Redundant power & fail‑safe engineering</h3>
+            <ul class="key-points">
+              <li><strong>Jerk‑less battery backup:</strong> Seamless operation for 30+ minutes when mains fail.</li>
+              <li><strong>Generator interface:</strong> Quick ground‑floor hook‑up for extended rescue periods.</li>
+              <li><strong>Emergency access provisions:</strong> Roof ladder and service trap for controlled manual evacuation if required.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Waterproof, EU‑compliant components</h3>
+            <ul class="key-points">
+              <li><strong>Ingress‑protected hardware:</strong> Operators, switches and motors rated for harsh environments.</li>
+              <li><strong>UCMP & over‑speed protection:</strong> Multiple safety layers to control movement under all conditions.</li>
+              <li><strong>Pit beam sensor:</strong> Detects personnel presence and prevents accidental movement during maintenance.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            <h3>Silent ride & comfort under stress</h3>
+            <p>Noise under 65 dB using special nylon gibs and precision rollers — keeping rides vibration-free during evacuation.</p>
+          </div>
+          <div>
+            <h3>Decades ahead in design & compliance</h3>
+            <ul class="key-points">
+              <li><strong>Dual compliance:</strong> Indigenous IS standards and EU norms.</li>
+              <li><strong>IFE collaboration:</strong> Next-generation design and supply.</li>
+              <li><strong>Component testing:</strong> Fire, vibration, water, and electrical reliability.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="proof-cards">
+          <div class="card">
+            <h4>46-stop building</h4>
+            <p>Installed in 3 months when a previous supplier failed.</p>
+          </div>
+          <div class="card">
+            <h4>Urgent licence clearance</h4>
+            <p>Designed, installed, certified in 2 months.</p>
+          </div>
+          <div class="card">
+            <h4>Zero-accident record</h4>
+            <p>Maintained across all projects.</p>
+          </div>
+        </div>
+
+        <div class="cta-inline">
+          <a class="btn btn-primary" href="#contact" data-open-modal="walkthrough">Request a Technical Walkthrough →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies & Client Proof -->
+    <section id="case-studies" class="section alt">
+      <div class="container">
+        <h2>Real projects. Proven rescues. Trusted across India.</h2>
+        <p>From 46-stop skyscrapers to critical-care hospitals, Saviour Rescuevator delivers faster installation, zero-accident operation, and 3–4 minute evacuations.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Metro City 46-Stop Tower</h3>
+            <ul class="key-points">
+              <li><strong>Challenge:</strong> Previous supplier failed; delay risk.</li>
+              <li><strong>Solution:</strong> Compliant fire evacuation lift in 3 months.</li>
+              <li><strong>Result:</strong> CFO/DFO approvals; occupancy license on time.</li>
+            </ul>
+            <a class="btn btn-tertiary" href="/downloads/case-metro.pdf" download="case-metro.pdf">Download case PDF</a>
+          </article>
+
+          <article class="card">
+            <h3>Critical-Care Hospital Wing</h3>
+            <ul class="key-points">
+              <li><strong>Challenge:</strong> ICU evacuation with zero noise trauma.</li>
+              <li><strong>Solution:</strong> Under 65 dB ride, IoT SOS to station & control room.</li>
+              <li><strong>Result:</strong> 3–4 minute floor evacuation (live drill).</li>
+            </ul>
+            <a class="btn btn-tertiary" href="/downloads/case-hospital.pdf" download="case-hospital.pdf">Download case PDF</a>
+          </article>
+
+          <article class="card">
+            <h3>Premium Residential Complex</h3>
+            <ul class="key-points">
+              <li><strong>Challenge:</strong> Urgent government licence before handover.</li>
+              <li><strong>Solution:</strong> Installed and certified in under 2 months.</li>
+              <li><strong>Result:</strong> On-schedule occupancy; no penalties.</li>
+            </ul>
+            <a class="btn btn-tertiary" href="/downloads/case-resi.pdf" download="case-resi.pdf">Download case PDF</a>
+          </article>
+        </div>
+
+        <div class="metrics">
+          <h3>Key metrics that prove the edge</h3>
+          <div class="metric-grid">
+            <div class="metric">
+              <strong>Average rescue time</strong>
+              <span>3–4 minutes</span>
+            </div>
+            <div class="metric">
+              <strong>Zero-accident record</strong>
+              <span>All installations</span>
+            </div>
+            <div class="metric">
+              <strong>Max installation</strong>
+              <span>46-stop in 3 months</span>
+            </div>
+            <div class="metric">
+              <strong>Max downtime</strong>
+              <span>2–24 hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials" aria-label="Testimonials">
+          <div class="testimonial">
+            <blockquote>
+              “Saviour delivered ahead of schedule and helped us secure our fire safety licence. Their IoT rescue system is a benchmark for high-rise safety.”
+            </blockquote>
+            <p class="cite">— Leading Metro Developer</p>
+          </div>
+          <div class="testimonial">
+            <blockquote>
+              “The silent ride and real-time SOS alerts gave us confidence that our ICU patients are safe during drills.”
+            </blockquote>
+            <p class="cite">— Hospital Facilities Director</p>
+          </div>
+        </div>
+
+        <div class="map-grid">
+          <h3>Nationwide footprint</h3>
+          <div class="india-map" role="img" aria-label="Interactive India map with project pins">
+            <div class="map-pin" style="left: 58%; top: 40%;" title="Delhi NCR — High-rise project"></div>
+            <div class="map-pin" style="left: 45%; top: 55%;" title="Mumbai — 46-stop tower"></div>
+            <div class="map-pin" style="left: 65%; top: 70%;" title="Bengaluru — IT park installation"></div>
+            <div class="map-pin" style="left: 60%; top: 60%;" title="Hyderabad — Hospital wing"></div>
+          </div>
+        </div>
+
+        <div class="cta-inline">
+          <a class="btn btn-primary" href="#contact" data-open-modal="audit">Request my project audit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service & Maintenance -->
+    <section id="service" class="section">
+      <div class="container">
+        <h2>Service that never sleeps. Safety that never slows.</h2>
+        <p>From day-one installation to decades of predictive care, Saviour ensures every fire-evacuation lift remains rescue-ready — 24×7.</p>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>Precision installation</h3>
+            <ul class="key-points">
+              <li><strong>Audit & design:</strong> Shaft, pit, machine room per CFO/DFO norms.</li>
+              <li><strong>Rapid commissioning:</strong> 60–90 days; 46-stop towers included.</li>
+              <li><strong>Zero-gap handover:</strong> Full compliance paperwork and DFO certificates.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Monthly preventive & predictive</h3>
+            <ul class="key-points">
+              <li><strong>Multi-point checks:</strong> Machine room, hoistway, pit — monthly.</li>
+              <li><strong>Real-time IoT monitoring:</strong> Flags vibration, heat, load anomalies.</li>
+              <li><strong>Downtime promise:</strong> 2–24 hours max, even for non-stock spares.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>24×7 emergency readiness</h3>
+            <ul class="key-points">
+              <li><strong>Hotline:</strong> Direct line to emergency rescue team.</li>
+              <li><strong>Power continuity:</strong> 30 min battery + generator socket.</li>
+              <li><strong>Comms & CCTV:</strong> Real-time contact during emergencies.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Long-life engineering & compliance</h3>
+            <ul class="key-points">
+              <li><strong>Waterproof EU components:</strong> Operators, switches, buffers, tensioning.</li>
+              <li><strong>UCMP & over-speed:</strong> Prevent unintended movement, control descent.</li>
+              <li><strong>IS + IFE collaboration:</strong> Next-gen reliability; parts certified for fire, vibration, electrical safety.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Service plans</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Plan</th>
+                  <th>Ideal for</th>
+                  <th>Core coverage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Essential</td>
+                  <td>Mid-rise residential & commercial</td>
+                  <td>Monthly preventive checks, 24×7 emergency hotline</td>
+                </tr>
+                <tr>
+                  <td>Premium</td>
+                  <td>High-rise towers & hospitals</td>
+                  <td>Essential + predictive IoT monitoring, priority spares</td>
+                </tr>
+                <tr>
+                  <td>Elite</td>
+                  <td>Mission-critical facilities</td>
+                  <td>Premium + dedicated on-site technician + annual compliance audit</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="cta-inline">
+          <a class="btn btn-primary" href="#contact" data-open-modal="maintenance-audit">Book my free maintenance audit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources & Compliance -->
+    <section id="resources" class="section alt">
+      <div class="container">
+        <h2>All the proof, plans & papers you need — in one place</h2>
+        <p>Instant, verifiable documentation to secure fire-safety approvals and stay audit-ready.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Compliance document library</h3>
+            <ul class="key-points">
+              <li><strong>DFO & CFO certificates:</strong> Indian regulatory approvals.</li>
+              <li><strong>IS & EU compliance sheets:</strong> Standards followed.</li>
+              <li><strong>Product data sheets:</strong> High-rise, hospital, commercial specs.</li>
+              <li><strong>Install & maintenance protocols:</strong> Step-by-step guides.</li>
+              <li><strong>Annual service log:</strong> Editable tracking file for zero-accident records.</li>
+            </ul>
+            <div class="download-group">
+              <button class="btn btn-tertiary" data-download="pack-pdf">Download full compliance pack (PDF)</button>
+              <button class="btn btn-tertiary" data-download="cad-zip">Download CAD drawings (ZIP)</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Knowledge hub & guides</h3>
+            <ul class="key-points">
+              <li><strong>High-rise evacuation checklist 2025</strong></li>
+              <li><strong>How IoT-linked SOS saves lives</strong></li>
+              <li><strong>Understanding UCMP & over-speed protection</strong></li>
+              <li><strong>Choosing the right fire lift: hospital vs commercial</strong></li>
+            </ul>
+            <div class="blog-grid">
+              <button class="btn btn-tertiary">Read checklist</button>
+              <button class="btn btn-tertiary">Read IoT explainer</button>
+              <button class="btn btn-tertiary">Read UCMP guide</button>
+              <button class="btn btn-tertiary">Read buying guide</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Design & tender resources</h3>
+            <ul class="key-points">
+              <li><strong>CAD-ready technical drawings</strong></li>
+              <li><strong>Sample tender wording (CFO/DFO aligned)</strong></li>
+              <li><strong>Structural guidance notes</strong></li>
+            </ul>
+            <div class="download-group">
+              <button class="btn btn-tertiary" data-download="tender-doc">Download tender wording (DOCX)</button>
+              <button class="btn btn-tertiary" data-download="struct-notes">Download structural notes (PDF)</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Certification & testing transparency</h3>
+            <ul class="key-points">
+              <li><strong>Component testing:</strong> Fire, vibration, water, electrical.</li>
+              <li><strong>Waterproof EU-compliant parts:</strong> Operators, switches, buffers, tensioning.</li>
+              <li><strong>Exclusive IFE collaboration:</strong> World-class design & innovation.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="subscribe">
+          <h3>Subscribe & stay ahead</h3>
+          <p>Be first to know about changes in IS standards, fire-lift technology trends, and rescue best practices.</p>
+          <form class="subscribe-form" id="subscribe-form" novalidate>
+            <label for="email"><span class="sr-only">Email</span></label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required />
+            <button class="btn btn-primary" type="submit">Subscribe to compliance alerts</button>
+            <p class="form-note">We respect your privacy and only send relevant updates.</p>
+          </form>
+        </div>
+
+        <div class="infographic">
+          <h3>Competitive edge — what others overlook</h3>
+          <div class="comparison-grid">
+            <div class="compare-card">
+              <strong>Compliance docs buried</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">One-click downloads</strong>
+              <p>DFO/IS/EU certifications.</p>
+            </div>
+            <div class="compare-card">
+              <strong>Limited buyer guidance</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">Step-by-step checklists</strong>
+              <p>Evacuation & tender templates.</p>
+            </div>
+            <div class="compare-card">
+              <strong>Sparse component proof</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">Lab-tested transparency</strong>
+              <p>Downloadable test reports.</p>
+            </div>
+            <div class="compare-card">
+              <strong>No proactive updates</strong>
+              <span class="vs">vs</span>
+              <strong class="accent">Free alerts & whitepapers</strong>
+              <p>Stay audit-ready.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-inline">
+          <a class="btn btn-primary" href="#resources">Download full compliance pack</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Audit -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Turn compliance into confidence</h2>
+        <p>Book a free on-site audit and get CAD-ready drawings within 48 hours.</p>
+
+        <form id="audit-form" class="audit-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-field">
+              <label for="org">Organization</label>
+              <input type="text" id="org" name="org" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email2">Email</label>
+              <input type="email" id="email2" name="email" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" />
+            </div>
+            <div class="form-field">
+              <label for="category">Project category</label>
+              <select id="category" name="category" required>
+                <option value="">Select</option>
+                <option>High-Rise</option>
+                <option>Hospital & Healthcare</option>
+                <option>Commercial & Mixed-Use</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">Notes</label>
+            <textarea id="message" name="message" rows="4" placeholder="Share timelines, constraints, and goals"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Request my project audit</button>
+          <p class="form-note">We’ll reply within 48 hours with next steps and documentation.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>Saviour Rescuevator</strong>
+        <p>DFO-certified fire-evacuation lifts engineered for zero entrapment.</p>
+        <ul class="trust-badges">
+          <li><span class="badge">DFO Certified</span></li>
+          <li><span class="badge">IS & EU Compliant</span></li>
+          <li><span class="badge">IFE Partner</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Internal links</h4>
+        <ul>
+          <li><a href="#technology">Technology & Safety Edge</a></li>
+          <li><a href="#case-studies">Case Studies & Client Proof</a></li>
+          <li><a href="#service">Service & Maintenance</a></li>
+          <li><a href="#resources">Resources & Compliance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-cta">
+        <h4>Take action</h4>
+        <a class="btn btn-outline" href="#contact" data-open-modal="audit">Book free audit</a>
+        <a class="btn btn-outline" href="#resources">Download compliance pack</a>
+        <!-- Social links moved here to sit to the right of the CTAs on wide screens -->
+        <div class="social-links" aria-label="Social links">
+          <a class="social" href="https://www.linkedin.com/company/saviour-rescuevator-private-limited/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6C1.1 6 0 4.88 0 3.5C0 2.12 1.1 1 2.48 1C3.86 1 4.98 2.12 4.98 3.5ZM0.5 8H4.5V24H0.5V8ZM8.5 8H12.2V10.2H12.3C12.9 9.1 14.4 8 16.6 8C21.2 8 22 10.8 22 15.2V24H18V15.8C18 13.8 17.9 11.4 15 11.4C12.1 11.4 11.7 13.6 11.7 15.7V24H7.7V8H8.5Z" fill="currentColor"/>
+            </svg>
+          </a>
+          <a class="social" href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M22.46 6c-.77.35-1.6.59-2.46.69a4.3 4.3 0 0 0 1.88-2.38 8.59 8.59 0 0 1-2.72 1.04 4.28 4.28 0 0 0-7.3 3.9A12.14 12.14 0 0 1 3.15 4.6a4.28 4.28 0 0 0 1.32 5.71 4.25 4.25 0 0 1-1.94-.54v.05a4.28 4.28 0 0 0 3.43 4.2c-.5.14-1.03.16-1.56.06a4.29 4.29 0 0 0 4 2.97A8.6 8.6 0 0 1 2 19.54a12.12 12.12 0 0 0 6.56 1.92c7.88 0 12.2-6.53 12.2-12.2v-.56A8.7 8.7 0 0 0 22.46 6z" fill="currentColor"/>
+            </svg>
+          </a>
+          <a class="social" href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM18.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="currentColor"/>
+            </svg>
+          </a>
+          <a class="social" href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.06 5.66 21.2 10.44 21.95v-6.95H7.9v-2.98h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.98h-2.34v6.95C18.34 21.2 22 17.06 22 12.07z" fill="currentColor"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-meta">
+      <nav class="footer-nav" aria-label="Footer links">
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Term &amp; Condition</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Book Meeting</a></li>
+        </ul>
+      </nav>
+
+      <p>&copy; <span id="year"></span> Saviour. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="Script.js" defer></script>
+</body>
+</html>
